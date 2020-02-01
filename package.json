@@ -1,0 +1,12 @@
+{
+  "name": "push-version-tag-action",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:1e3/push-version-tag-action.git",
+  "author": "Rafael Franco <rafaelfr@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/exec": "^1.0.3"
+  }
+}

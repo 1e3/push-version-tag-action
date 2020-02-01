@@ -1,0 +1,22 @@
+name: 'push-version-tag-action'
+description: 'Creates and pushes a new version tag based on package.json'
+
+inputs:
+  token:
+    description: 'GitHub Token with access to merge in HEAD branch'
+    required: true
+  prefix:
+    description: 'Prefix that will be used in the tag'
+    required: false
+
+outputs:
+  success:
+    description: 'Outputs if the tag creation was successful'
+
+runs:
+  using: 'node12'
+  main: 'index.js'
+
+branding:
+  icon: 'tag'
+  color: 'green'
